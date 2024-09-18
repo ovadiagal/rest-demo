@@ -13,16 +13,18 @@ npm start
 This will start the web server on port 3000.
 The web server features the following endpoints:
 
-`GET ‘/api/products’`
+### `GET /api/products`
 Display the list of all products
 Can test by navigating to http://localhost:3000/api/products after spinning up the server locally.
 
-`GET ‘/api/products/id’`
+### `GET /api/products/id`
 Display the information of a specific product. The product ID needs to be specified via a URL param.
+
 For example, to access the product with ID 4, navigate to http://localhost:3000/api/products/id?id=4
 
-`POST ‘/api/products’`
+### `POST /api/products`
 Creates a new product. The product information needs to be specified in the request body. The ID is randomly generated.
+
 Below is an example cURL request that can be used to test this endpoint:
 
 ```
@@ -34,8 +36,10 @@ curl --location 'http://localhost:3000/api/products' \
 }'
 ```
 
-`PUT ‘/api/products/id’`
-Updates the details of an existing product. The product ID needs to be specified via a URL param. The product information needs to be specified in the request body. Below is an example cURL request that can be used to test this endpoint:
+### `PUT /api/products/id`
+Updates the details of an existing product. The product ID needs to be specified via a URL param. The product information needs to be specified in the request body.
+
+Below is an example cURL request that can be used to test this endpoint:
 
 ```
 curl --location --request PUT 'http://localhost:3000/api/products/id?id=1' \
@@ -46,8 +50,10 @@ curl --location --request PUT 'http://localhost:3000/api/products/id?id=1' \
 }'
 ```
 
-DELETE ‘/api/products/id’
-Deletes a product from the database. The product ID needs to be specified via a URL param. Below is an example cURL request that can be used to test this endpoint:
+### `DELETE /api/products/id`
+Deletes a product from the database. The product ID needs to be specified via a URL param.
+
+Below is an example cURL request that can be used to test this endpoint:
 
 ```
 curl --location --request DELETE 'http://localhost:3000/api/products/id?id=1'
