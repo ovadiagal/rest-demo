@@ -5,8 +5,10 @@ Author: Gal Ovadia
 This is a basic web server for my 3300 assignment.
 
 Run this locally with:
-`npm i`
-`npm start`
+```
+npm i
+npm start
+```
 
 This will start the web server on port 3000.
 The web server features the following endpoints:
