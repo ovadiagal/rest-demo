@@ -15,8 +15,8 @@ app.get("/api/products", (req, res) => {
   });
 });
 
-app.get("/api/products/id", (req, res) => {
-  const id = req.query.id;
+app.get("/api/products/:id", (req, res) => {
+  const id = req.params.id;
   fs.readFile("src/items.json", "utf8", (err, data) => {
     const products = JSON.parse(data);
     const product = products.find((p) => p.id == parseInt(id));
@@ -36,8 +36,8 @@ app.post("/api/products", express.json(), (req, res) => {
   });
 });
 
-app.put("/api/products/id", express.json(), (req, res) => {
-  const id = req.query.id;
+app.put("/api/products/:id", express.json(), (req, res) => {
+  const id = req.params.id;
   fs.readFile("src/items.json", "utf8", (err, data) => {
     const products = JSON.parse(data);
     const index = products.findIndex((p) => p.id == parseInt(id));
@@ -48,8 +48,8 @@ app.put("/api/products/id", express.json(), (req, res) => {
   });
 });
 
-app.delete("/api/products/id", (req, res) => {
-  const id = req.query.id;
+app.delete("/api/products/:id", (req, res) => {
+  const id = req.params.id;
   fs.readFile("src/items.json", "utf8", (err, data) => {
     const products = JSON.parse(data);
     const index = products.findIndex((p) => p.id === id);
