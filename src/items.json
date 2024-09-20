@@ -1,102 +1,82 @@
-[
-  {
-    "id": 1,
+{
+  "1": {
     "name": "Sony Turntable",
     "quantity": 552
   },
-  {
-    "id": 2,
+  "2": {
     "name": "Bose Acoustimass 5 Series III Speaker System",
     "quantity": 580
   },
-  {
-    "id": 3,
+  "3": {
     "name": "Sony Switcher",
     "quantity": 4696
   },
-  {
-    "id": 4,
+  "4": {
     "name": "Sony 5 Disc CD Player",
     "quantity": 5644
   },
-  {
-    "id": 5,
+  "5": {
     "name": "Bose 27028 161 Bookshelf Pair Speakers In White",
     "quantity": 6284
   },
-  {
-    "id": 6,
+  "6": {
     "name": "Denon Stereo Tuner",
     "quantity": 6493
   },
-  {
-    "id": 7,
+  "7": {
     "name": "KitchenAid Pasta Roller And Cutter",
     "quantity": 6726
   },
-  {
-    "id": 8,
+  "8": {
     "name": "Panasonic Yeast Pro Automatic Breadmaker",
     "quantity": 6742
   },
-  {
-    "id": 9,
+  "9": {
     "name": "Sony Vertical-In-The-Ear Stereo Headphones",
     "quantity": 7195
   },
-  {
-    "id": 10,
+  "10": {
     "name": "Panasonic 2-Line Integrated Telephone",
     "quantity": 7783
   },
-  {
-    "id": 11,
+  "11": {
     "name": "Panasonic Integrated Telephone System",
     "quantity": 7936
   },
-  {
-    "id": 12,
+  "12": {
     "name": "Panasonic 2-Line Integrated Telephone System",
     "quantity": 8060
   },
-  {
-    "id": 13,
+  "13": {
     "name": "Sony 300 Disc CD Changer",
     "quantity": 8552
   },
-  {
-    "id": 14,
+  "14": {
     "name": "Sony 400 Disc MegaStorage CD Changer",
     "quantity": 9071
   },
-  {
-    "id": 15,
+  "15": {
     "name": "Panasonic Hands-Free Headset",
     "quantity": 9312
   },
-  {
-    "id": 16,
+  "16": {
     "name": "Panasonic Hands Free Headset",
     "quantity": 9314
   },
-  {
-    "id": 17,
+  "17": {
     "name": "Cuisinart Convection-Oven-Toaster-Broiler With Exact Heat Sensor",
     "quantity": 9355
   },
-  {
-    "id": 18,
+  "18": {
     "name": "Frigidaire 24' White Built-In Dishwasher",
     "quantity": 9546
   },
-  {
-    "id": 19,
+  "19": {
     "name": "Cuisinart Cordless Electric Kettle",
     "quantity": 9646
   },
-  {
-    "id": 20,
+  "20": {
     "name": "Omnimount Wall Speaker Mount",
     "quantity": 9735
   }
-]
+}
