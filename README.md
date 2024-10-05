@@ -14,7 +14,7 @@ This will start the web server on port 3000.
 The web server features the following endpoints:
 
 ### `GET /api/products`
-Display the list of all products
+Display the list of all products.
 Can test by navigating to http://localhost:3000/api/products after spinning up the server locally.
 
 ### `GET /api/products/[id]`
